@@ -10,6 +10,7 @@ import CriteriaAdder from "@oui-angular/oui-criteria-adder/src";
 import CriteriaContainer from "@oui-angular/oui-criteria-container/src";
 import Datagrid from "@oui-angular/oui-datagrid/src";
 import Dropdown from "@oui-angular/oui-dropdown/src";
+import DualList from "@oui-angular/oui-dual-list/src";
 import Field from "@oui-angular/oui-field/src";
 import FormActions from "@oui-angular/oui-form-actions/src";
 import GuideMenu from "@oui-angular/oui-guide-menu/src";
@@ -51,6 +52,7 @@ export default angular
         CriteriaContainer,
         Datagrid,
         Dropdown,
+        DualList,
         Field,
         FormActions,
         GuideMenu,
