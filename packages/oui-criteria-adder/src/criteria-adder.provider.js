@@ -1,3 +1,6 @@
+import allTranslations from "ovh-translation-loader!./translations/Messages_fr_FR.xml";
+import { getTranslations } from "@oui-angular/common/locale";
+
 export default class {
     constructor () {
         this.operatorsByType = {
@@ -63,7 +66,7 @@ export default class {
     }
 
     /**
-     * Set the operators by type
+     * Set the operators by type.
      * @param {Object} operatorsByType a list of operators by type
      */
     setOperatorsByType (operatorsByType) {
@@ -72,7 +75,16 @@ export default class {
     }
 
     /**
-     * Set the translations
+     * Set the translations to a defined locale.
+     * @param {Object} translations a map of translations
+     */
+    setLocale (locale) {
+        this.translations = getTranslations(allTranslations, locale);
+        console.log(this.translations);
+    }
+
+    /**
+     * Set the translations.
      * @param {Object} translations a map of translations
      */
     setTranslations (translations) {

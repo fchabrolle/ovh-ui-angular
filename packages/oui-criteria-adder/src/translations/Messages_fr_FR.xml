@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations>
+   <translation id="column_label">Colonne</translation>
+   <translation id="operator_label">Opérateur</translation>
+
+   <translation id="operator_boolean_is">est</translation>
+   <translation id="operator_boolean_isNot">n'est pas</translation>
+
+   <translation id="operator_string_contains">contient</translation>
+   <translation id="operator_string_containsNot">ne contient pas</translation>
+   <translation id="operator_string_startsWith">commence par</translation>
+   <translation id="operator_string_endsWith">finit par</translation>
+   <translation id="operator_string_is">est</translation>
+   <translation id="operator_string_isNot">n'est pas</translation>
+
+   <translation id="operator_number_is">est</translation>
+   <translation id="operator_number_smaller">est plus petit que</translation>
+   <translation id="operator_number_bigger">est plus grand que</translation>
+
+   <translation id="operator_date_is">est</translation>
+   <translation id="operator_date_isBefore">est avant</translation>
+   <translation id="operator_date_isAfter">est après</translation>
+
+   <translation id="operator_options_is">est</translation>
+   <translation id="operator_options_isNot">n'est pas</translation>
+
+   <translation id="true_label">Oui</translation>
+   <translation id="false_label">Non</translation>
+
+   <translation id="value_label">Valeur</translation>
+   <translation id="submit_label">Ajouter</translation>
+</translations>

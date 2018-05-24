@@ -26,6 +26,7 @@ import "@oui-angular/oui-criteria-adder/src";
 import "@oui-angular/oui-chips/src";
 import "@oui-angular/oui-popover/src";
 import "@oui-angular/oui-stepper/src";
+import ConfigurationProvider from "./configuration.provider.js";
 
 angular.module("oui", [
     "oui.button",
@@ -56,4 +57,5 @@ angular.module("oui", [
     "oui.chips",
     "oui.popover",
     "oui.stepper"
-]);
+])
+    .provider("ouiConfiguration", ConfigurationProvider);
