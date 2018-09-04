@@ -4,7 +4,6 @@ import template from "./dual-list.html";
 export default {
     template,
     controller,
-    controllerAs: "$ctrl",
     bindings: {
         sourceListLabel: "@?",
         targetListLabel: "@?",
